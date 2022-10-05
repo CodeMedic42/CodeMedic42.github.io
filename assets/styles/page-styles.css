@@ -25,6 +25,24 @@ body {
 
 .page-logo {
     font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    margin-left: 85px;
+    position: relative;
+}
+
+.logo-j {
+    background-color: white;
+    z-index: 2;
+    letter-spacing: -0.1em;
+    border-right: 2px white solid;
+    position: relative;
+}
+
+.logo-v {
+    position: absolute;
+    left: 10px;
+    z-index: 1;
 }
 
 .nav-link {
@@ -65,13 +83,13 @@ body {
     position: absolute;
     left: -30px;
     top: 15px;
-    font-weight: 300;
 }
 
 #primary-heading #designer-name {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.365em;
     display: block;
+    font-weight: 300;
 }
 
 .section-heading {
