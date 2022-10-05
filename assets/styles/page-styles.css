@@ -86,3 +86,8 @@ body {
 .small-text {
     font-family: 'Lato', sans-serif;
 }
+
+.brand-icon {
+    height: 52px;
+    width: 52px;
+}
