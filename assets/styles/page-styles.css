@@ -1,0 +1,76 @@
+:root {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.page-root {;
+    background-color: white;
+}
+
+.page-header {
+    width: 100%;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.page-section {
+    height: 892px;
+}
+
+#primary-heading {
+    font-size: 36px;
+    line-height: 54px;
+}
+
+#primary-heading #designer-name {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-heading {
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.about-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+#contact-form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 660px;
+}
+
+.form-input {
+    width: 270px;
+    height: 50px;
+    margin-bottom: 32px;
+}
+
+.left-input {
+    margin-right: 120px;
+}
+
+#submit-button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    height: 60px;
+    background-color: #0076B1;
+}
+
+.small-text {
+    font-family: 'Lato', sans-serif;
+}

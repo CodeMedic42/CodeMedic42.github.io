@@ -18,8 +18,61 @@
             {"@context":"https://schema.org","@type":"WebSite","headline":"CodeMedic42.github.io","name":"CodeMedic42.github.io","url":"https://codemedic42.github.io/"}
         </script>
         <link rel="stylesheet" href="/assets/css/style.css?v=1089e9f65f2735ad9119be287c203fc1b987a849"> -->
+        <link href="http://fonts.cdnfonts.com/css/bebas-neue" rel="stylesheet">
+        <link href="http://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+        <link href="http://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/styles/page-styles.css">
     </head>
     <body>
-        <div><span>Hello World 2</span></div>
+        <div class="page-root">
+            <header class="page-header">
+                <div class="page-logo">test</div>
+                <nav class="page-nav">
+                    <a class="nav-link" href="#section-about">About</a>
+                    <a class="nav-link" href="#section-protfolio">Work</a>
+                    <a class="nav-link" href="#section-protfolio">Resume</a>
+                    <a class="nav-link" href="#section-content">Contact</a>
+                </nav>
+            </header>
+            <section id="section-top" class="section">
+                <h1 id="primary-heading">The Portfolio of <span id="designer-name">Julia Voronov</span> UX/UI Designer</h1>
+            </section>
+            <section id="section-about" class="page-section">
+                <h2 class="section-heading">About Me</h2>
+            </section>
+            <section id="section-portfolio" class="page-section">
+                <h2 class="section-heading">Portfolio</h2>
+                <p class="about-text"></p>
+            </section>
+            <section id="section-contact" class="page-section">
+                <h2 class="section-heading">Contact me</h2>
+                <form id="contact-form">
+                    <input id="firstName-input" class="form-input left-input" type="text" name="firstName" placeholder="First name*"/>
+                    <input id="lastName-input" class="form-input" type="text" name="lastName" placeholder="Last name*" />
+                    <input id="email-input" class="form-input left-input" type="email" name="email" placeholder="Email*" />
+                    <input id="phoneNumber-input" class="form-input" type="tel" name="phoneNumber" placeholder="Phone number*" />
+                    <textarea id="message-input" class="form-input" name="message" placeholder="Message*"></textarea>
+                    <button id="submit-button" type="submit">Submit</button>
+                </form>
+            </section>
+            <footer class="page-footer">
+                <span id="footer-copyright" class="small-text">2022 All rights reserved</span>
+                <span>
+                    <a href="https://telegram.org/">
+                        <img alt="Telegram" src="https://www.qries.com/images/banner_logo.png" />
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img alt="Instagram" src="https://www.qries.com/images/banner_logo.png" />
+                    </a>
+                    <a href="https://www.linkedin.com/">
+                        <img alt="LinkedIn" src="https://www.qries.com/images/banner_logo.png" />
+                    </a>
+                </span>
+                <span id="footer-contact" class="small-text">
+                    <span id="footer-contact-email">yuhtenko89@gmail.com</span>
+                    <span id="footer-contact-phone">+1 919 579 0000</span>
+                </span>
+            </footer>
+        </div>
     </body>
 </html>
