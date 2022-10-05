@@ -36,15 +36,20 @@ body {
 #primary-heading {
     font-size: 36px;
     line-height: 54px;
+    user-select: none;
+    letter-spacing: 0.25em;
 }
 
 #primary-heading #designer-name {
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.365em;
 }
 
 .section-heading {
     font-size: 48px;
     line-height: 72px;
+    letter-spacing: 0.6em;
+    user-select: none;
 }
 
 .about-text {
