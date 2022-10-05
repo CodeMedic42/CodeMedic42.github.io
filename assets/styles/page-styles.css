@@ -67,6 +67,12 @@ body {
     margin-right: 120px;
 }
 
+#message-input {
+    resize: none;
+    width: 100%;
+    height: 150px;
+}
+
 #submit-button {
     margin-left: auto;
     margin-right: auto;
