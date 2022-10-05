@@ -152,3 +152,7 @@ body {
     height: 52px;
     width: 52px;
 }
+
+.footer-copyright {
+    user-select: none;
+}
