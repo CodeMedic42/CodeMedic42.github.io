@@ -73,6 +73,7 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
+    user-select: none;
 }
 
 #primary-heading::before {
@@ -92,6 +93,7 @@ body {
     letter-spacing: 0.365em;
     display: block;
     font-weight: 300;
+    user-select: auto;
 }
 
 .section-heading {
