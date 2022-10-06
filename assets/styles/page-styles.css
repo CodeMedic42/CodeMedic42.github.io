@@ -124,6 +124,15 @@ h2 {
     top: 15px;
 }
 
+.shape-2 {
+    background-color: #FF6853;
+    transform: rotate(90deg);
+}
+
+.shape-2::before {
+    top: -18px;
+}
+
 #primary-heading .designer-name {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.365em;
