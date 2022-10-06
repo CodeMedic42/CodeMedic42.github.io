@@ -95,7 +95,6 @@ h2 {
     width: 595px;
     background-color: #0076B1;
     border-radius: 50%;
-    position: relative;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -104,6 +103,10 @@ h2 {
     color: white;
     margin-left: 176px;
     margin-top: 45px;
+}
+
+.shape {
+    position: relative;
 }
 
 .shape::before {
@@ -131,10 +134,6 @@ h2 {
 
 #shape-2::before {
     top: -18px;
-}
-
-.shape-3 {
-    background-color: #FF6853;
 }
 
 #primary-heading .designer-name {
