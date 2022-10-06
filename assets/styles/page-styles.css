@@ -31,6 +31,8 @@ body {
 
 .page-header {
     width: 100%;
+    display: flex;
+    margin-top: 24px;
 }
 
 .page-logo {
@@ -40,6 +42,8 @@ body {
     margin-left: 85px;
     position: relative;
     user-select: none;
+    display: inline-block;
+    width: 45px;
 }
 
 .logo-j {
@@ -54,6 +58,17 @@ body {
     position: absolute;
     left: 10px;
     z-index: 1;
+}
+
+.page-nav {
+    padding-right: 85px;
+    padding-left: 160px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-link {
