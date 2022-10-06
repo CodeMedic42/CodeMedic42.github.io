@@ -6,7 +6,6 @@
     line-height: 24px;
     scroll-behavior: smooth;
     color: var(--clr-base-color);
-    color: inherit;
 }
 
 * {
@@ -59,6 +58,7 @@ body {
     line-height: 36px;
     user-select: none;
     text-decoration: none;
+    color: inherit;
 }
 
 .page-section {
