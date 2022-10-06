@@ -124,13 +124,17 @@ h2 {
     top: 15px;
 }
 
-.shape-2 {
+#shape-2 {
     background-color: #FF6853;
     transform: rotate(90deg);
 }
 
-.shape-2::before {
+#shape-2::before {
     top: -18px;
+}
+
+.shape-3 {
+    background-color: #FF6853;
 }
 
 #primary-heading .designer-name {
