@@ -17,7 +17,9 @@
 }
 
 html,
-body {
+body,
+h1,
+h2 {
   padding: 0;
   margin: 0;
   background-color: white;
@@ -101,6 +103,7 @@ body {
     align-items: center;
     color: white;
     margin-left: 176px;
+    margin-top: 45px;
 }
 
 .shape::before {
