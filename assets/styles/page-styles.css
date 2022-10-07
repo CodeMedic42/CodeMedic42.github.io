@@ -177,6 +177,8 @@ h2 {
     height: 640px;
     background-color: #F1B1A1;
     position: absolute;
+    left: -320px;
+    top: 99px;
 }
 
 /* #shape-4 {
