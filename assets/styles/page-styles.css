@@ -99,6 +99,9 @@ h2 {
 }
 
 #primary-heading {
+    --shp-offset-top: 15px;
+    --shp-offset-left: -30px;
+
     font-size: 36px;
     line-height: 54px;
     letter-spacing: 0.25em;
@@ -127,18 +130,23 @@ h2 {
     border: solid 1px var(--clr-base-color);
     display: block;
     position: absolute;
+    top: var(--shp-offset-top, 0);
+    left: var(--shp-offset-left, 0);
 }
 
 .shape-round::before {
     border-radius: 50%;
 }
 
-#primary-heading::before {
+/* #primary-heading::before {
     left: -30px;
     top: 15px;
-}
+} */
 
 #shape-2 {
+    --shp-offset-top: -15px;
+    --shp-offset-left: -15px;
+
     background-color: #FF6853;
     transform: rotate(45deg);
     height: 406px;
@@ -148,16 +156,29 @@ h2 {
     top: 100px;
 }
 
-#shape-2::before {
+/* #shape-2::before {
   top: -15px;
   left: -15px;
-}
+} */
 
 #shape-3 {
     position: absolute;
     top: 130px;
     left: 62px;
 }
+
+#shape-4 {
+    --shp-offset-top: -36px;
+
+    width: 640px;
+    height: 640px;
+    background-color: #F1B1A1;
+    position: absolute;
+}
+
+/* #shape-4 {
+    top: -36px;
+} */
 
 .about-text {
     margin-left: 475px;
