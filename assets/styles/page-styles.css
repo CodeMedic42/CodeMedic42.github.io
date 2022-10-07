@@ -266,10 +266,27 @@ p {
     width: 52px;
 }
 
+.page-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-left: 84px;
+    padding-right: 84px;
+}
+
 .footer-copyright {
     user-select: none;
 }
 
 .brand-link {
     text-decoration: none;
+}
+
+.brand-link:not(:last-child) {
+    margin-right: 32px;
+}
+
+.contact-text {
+    display: block;
+    text-align: right;
 }
