@@ -96,6 +96,7 @@ h2 {
 .page-section {
     height: 892px;
     position: relative;
+    z-index: 1;
 }
 
 #primary-heading {
@@ -190,6 +191,7 @@ h2 {
     position: absolute;
     left: 817px;
     top: -109px;
+    z-index: -1;
 }
 
 /* #shape-4 {
@@ -228,13 +230,13 @@ p {
     font-size: 48px;
     line-height: 72px;
     letter-spacing: 0.6em;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #about-section-heading {
     position: absolute;
     left: 205px;
     z-index: 10;
-    background-color: rgba(0, 0, 0, 0);
 }
 
 #contact-section-heading {
