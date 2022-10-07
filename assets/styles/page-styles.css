@@ -29,6 +29,7 @@ h2 {
     width: 1441px;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 
 .page-header {
@@ -131,9 +132,11 @@ h2 {
 #shape-2 {
     background-color: #FF6853;
     transform: rotate(45deg);
-    height: 706px;
-    width: 706px;
+    height: 406px;
+    width: 406px;
     position: absolute;
+    right: -203px;
+    top: 100px;
 }
 
 #shape-2::before {
