@@ -162,7 +162,7 @@ h2 {
 }
 
 p {
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     margin-top: 0px;
     margin-bottom: 80px;
@@ -231,6 +231,16 @@ p {
     height: 60px;
     background-color: #0076B1;
     user-select: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#submit-button::before {
+    left: 6px;
+    top: 6px;
 }
 
 .small-text {
