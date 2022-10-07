@@ -147,6 +147,11 @@ h2 {
     margin-left: 475px;
     margin-top: 65px;
     display: inline-block;
+    margin-right: 146px;
+}
+
+.about-text-offset {
+    padding-left: 270px;
 }
 
 p {
