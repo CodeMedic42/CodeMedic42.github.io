@@ -143,6 +143,11 @@ h2 {
     left: 62px;
 }
 
+p {
+    font-family: 'Lato';
+    font-size: 20px;
+}
+
 #primary-heading .designer-name {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.365em;
