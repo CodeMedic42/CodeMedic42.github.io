@@ -240,6 +240,10 @@ p {
     background-color: rgba(0, 0, 0, 0);
 }
 
+#section-top {
+    height: 1007px;
+}
+
 #about-section-heading {
     position: absolute;
     left: 205px;
