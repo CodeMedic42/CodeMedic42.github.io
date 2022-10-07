@@ -142,11 +142,6 @@ h2 {
     border-radius: 50%;
 }
 
-/* #primary-heading::before {
-    left: -30px;
-    top: 15px;
-} */
-
 #shape-2 {
     --shp-offset-top: -15px;
     --shp-offset-left: -15px;
@@ -158,6 +153,12 @@ h2 {
     position: absolute;
     right: -203px;
     top: 100px;
+}
+
+#abstract-1 {
+    position: absolute;
+    top: -284px;
+    right: 0;
 }
 
 #shape-3 {
