@@ -181,6 +181,17 @@ h2 {
     top: 99px;
 }
 
+#shape-5 {
+    --shp-offset-left: 10px;
+
+    width: 318px;
+    height: 318px;
+    background-color: #FFB206;
+    position: absolute;
+    left: 817px;
+    top: -109px;
+}
+
 /* #shape-4 {
     top: -36px;
 } */
