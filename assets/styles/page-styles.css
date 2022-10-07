@@ -143,9 +143,17 @@ h2 {
     left: 62px;
 }
 
+.about-text {
+    margin-left: 475px;
+    margin-top: 65px;
+    display: inline-block;
+}
+
 p {
     font-family: 'Lato';
     font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 80px;
 }
 
 #primary-heading .designer-name {
