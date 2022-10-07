@@ -269,9 +269,10 @@ p {
 .page-footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 50px;
     padding-left: 84px;
-    padding-right: 84px;
+    padding-right: 84px;1
 }
 
 .footer-copyright {
