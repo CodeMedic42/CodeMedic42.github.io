@@ -195,6 +195,7 @@ h2 {
     position: absolute;
     left: 189px;
     top: 91px;
+    z-index: -1;
 }
 
 .about-text {
