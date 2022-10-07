@@ -130,11 +130,15 @@ h2 {
 
 #shape-2 {
     background-color: #FF6853;
-    transform: rotate(90deg);
+    transform: rotate(45deg);
+    height: 706px;
+    width: 706px;
+    position: absolute;
 }
 
 #shape-2::before {
-    top: -18px;
+  top: -15px;
+  left: -15px;
 }
 
 #shape-3 {
