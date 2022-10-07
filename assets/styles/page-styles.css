@@ -217,6 +217,10 @@ p {
     margin-right: 120px;
 }
 
+.cursor-input {
+    padding: 15px 20px;
+}
+
 #message-input {
     resize: none;
     width: 100%;
