@@ -198,6 +198,12 @@ h2 {
     z-index: -1;
 }
 
+#lines-1 {
+    position: absolute;
+    top: 268px
+    right: 0;
+}
+
 .about-text {
     margin-left: 475px;
     margin-top: 65px;
