@@ -10,9 +10,6 @@
 
 * {
     box-sizing: border-box;
-}
-
-.no-select {
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -20,13 +17,13 @@
     user-select: none;
 }
 
-/* .enable-select {
+.enable-select {
     -webkit-user-select: text;
     -khtml-user-select: text;
     -moz-user-select: text;
     -o-user-select: text;
     user-select: text;
-} */
+}
 
 html,
 body,
