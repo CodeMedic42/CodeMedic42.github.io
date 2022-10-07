@@ -85,6 +85,7 @@ h2 {
 
 .page-section {
     height: 892px;
+    position: relative;
 }
 
 #primary-heading {
@@ -136,6 +137,12 @@ h2 {
     top: -18px;
 }
 
+#shape-3 {
+    position: absolute;
+    top: 130px;
+    left: 62px;
+}
+
 #primary-heading .designer-name {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.365em;
@@ -151,6 +158,13 @@ h2 {
     line-height: 72px;
     letter-spacing: 0.6em;
     user-select: none;
+}
+
+#about-section-heading {
+    position: absolute;
+    left: 205px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .about-text {
