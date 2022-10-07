@@ -160,11 +160,6 @@ h2 {
     top: 100px;
 }
 
-/* #shape-2::before {
-  top: -15px;
-  left: -15px;
-} */
-
 #shape-3 {
     position: absolute;
     top: 130px;
@@ -194,9 +189,13 @@ h2 {
     z-index: -1;
 }
 
-/* #shape-4 {
-    top: -36px;
-} */
+#shape-6 {
+    transform: rotate(1deg);
+    transform-origin: center;
+    position: absolute;
+    left: 189px;
+    top: 91px;
+}
 
 .about-text {
     margin-left: 475px;
